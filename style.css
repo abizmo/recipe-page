@@ -61,6 +61,14 @@ h3 {
   line-height: 1;
 }
 
+.bg-white {
+  background-color: hsl(var(--clr-white));
+}
+
+.bg-accent {
+  background-color: hsl(var(--clr-rose-white));
+}
+
 .text-dark {
   color: hsl(var(--clr-dark-charcoal));
 }
