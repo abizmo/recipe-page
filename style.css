@@ -44,6 +44,7 @@ img {
 /* global */
 body {
   font-family: var(--ff-body);
+  font-weight: 400;
   line-height: 1.5;
   background-color: var(--clr-bg);
   color: var(--clr-fg);
@@ -52,8 +53,14 @@ body {
 h1,
 h2 {
   font-family: var(--ff-heading);
+}
+
+h1,
+h2,
+h3 {
   line-height: 1;
 }
+
 .text-dark {
   color: hsl(var(--clr-dark-charcoal));
 }
@@ -64,4 +71,20 @@ h2 {
 
 .text-accent {
   color: var(--clr-accent);
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 20px;
 }
