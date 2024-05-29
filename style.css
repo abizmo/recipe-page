@@ -115,3 +115,11 @@ h3 {
   font-size: var(--fs-600);
 }
 
+/*recipe*/
+@media (min-width: 46.125rem) {
+  .recipe {
+    margin-top: 8rem;
+    padding: 40px;
+    border-radius: 24px;
+  }
+}
