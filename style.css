@@ -70,6 +70,10 @@ img {
   display: block;
 }
 
+table {
+  width: 100%;
+}
+
 /* global */
 body {
   font-family: var(--ff-body);
@@ -160,6 +164,7 @@ section.with-border {
 @media (max-width: 46.124rem) {
   .recipe-body {
     padding-inline: var(--size-8);
+    padding-bottom: var(--size-10);
   }
 }
 
@@ -216,3 +221,23 @@ section.with-border {
 .list--bullet .list__item--primary::before {
   background-color: var(--clr-primary);
 }
+
+.nutrition-table {
+  display: grid;
+  gap: var(--size-1);
+}
+
+.nutrition-table__row {
+  display: flex;
+  padding-inline: var(--size-8);
+  padding-block: var(--size-2);
+}
+
+.nutrition-table__row:not(:last-child) {
+  border-bottom: 1px solid hsl(var(--clr-light-grey));
+}
+
+.nutrition-table__cell {
+  flex: 1;
+}
+
