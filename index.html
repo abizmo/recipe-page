@@ -33,29 +33,35 @@
     </style>
   </head>
   <body>
-    <article class="recipe | bg-white container">
-      <header>
-        <img src="./assets/images/image-omelette.jpeg" alt="omelette" />
+    <article class="recipe | container">
+      <header class="recipe-header">
+        <img
+          src="./assets/images/image-omelette.jpeg"
+          alt="omelette"
+          class="recipe-image"
+        />
       </header>
 
-      <main>
-        <h1 class="text-dark">Simple Omelette Recipe</h1>
+      <main class="recipe-body">
+        <section>
+          <h1 class="recipe-title | text-dark">Simple Omelette Recipe</h1>
 
-        <p>
-          An easy and quick dish, perfect for any meal. This classic omelette
-          combines beaten eggs cooked to perfection, optionally filled with your
-          choice of cheese, vegetables, or meats.
-        </p>
+          <p class="mb-m">
+            An easy and quick dish, perfect for any meal. This classic omelette
+            combines beaten eggs cooked to perfection, optionally filled with
+            your choice of cheese, vegetables, or meats.
+          </p>
 
-        <div class="bg-accent">
-          <h3 class="text-accent">Preparation time</h3>
+          <div class="recipe__preparation">
+            <h3 class="text-accent">Preparation time</h3>
 
-          <ul role="list">
-            <li><b>Total:</b> Approximately 10 minutes</li>
-            <li><b>Preparation:</b> 5 minutes</li>
-            <li><b>Cooking:</b> 5 minutes</li>
-          </ul>
-        </div>
+            <ul role="list">
+              <li><b>Total:</b> Approximately 10 minutes</li>
+              <li><b>Preparation:</b> 5 minutes</li>
+              <li><b>Cooking:</b> 5 minutes</li>
+            </ul>
+          </div>
+        </section>
         <section>
           <h2 class="text-primary">Ingredients</h2>
 
@@ -113,7 +119,7 @@
         <section>
           <h2 class="text-primary">Nutrition</h2>
 
-          <p>
+          <p class="mb-m">
             The table below shows nutritional values per serving without the
             additional fillings.
           </p>
