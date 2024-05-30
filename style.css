@@ -134,6 +134,11 @@ section:not(:last-child) {
   margin-bottom: var(--size-8);
 }
 
+section.with-border {
+  border-bottom: 1px solid hsl(var(--clr-light-grey));
+  padding-bottom: var(--size-6);
+}
+
 /*recipe*/
 .recipe {
   background-color: hsl(var(--clr-white));
