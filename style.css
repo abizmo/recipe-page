@@ -152,9 +152,6 @@ section.with-border {
   margin-bottom: var(--size-10);
 }
 
-.recipe-title {
-}
-
 .recipe__preparation {
   padding: var(--size-6);
   border-radius: var(--br-m);
@@ -241,3 +238,12 @@ section.with-border {
   flex: 1;
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: var(--size-2);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
